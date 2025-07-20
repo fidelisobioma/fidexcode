@@ -1,8 +1,8 @@
 function About() {
   return (
     <div className="bg-white ">
-      <div className="flex items-center justify-center gap-10 p-10">
-        <div className="max-w-md">
+      <div className="grid grid-cols-2  items-center gap-10  p-10 max-w-7xl mx-auto ">
+        <div className="max-w-[600px]">
           <h2 className="text-2xl font-bold mb-4">About me</h2>
           <p className="text-lg font-normal mb-4">Get to know me better</p>
           <p className="text-base font-normal leading-relaxed">
@@ -37,8 +37,12 @@ function About() {
             projects that make a difference.
           </p> */}
         </div>
-        <div className="max-w-md bg-[#6574a0] p-10 rounded-full">
-          <img src="/images/fidelis.png" alt="fidelis" className="w-full" />
+        <div className="max-w-[600px] ">
+          <img
+            src="/images/fidelis.png"
+            alt="fidelis picture"
+            className="w-full rounded-full bg-[#6574a0] "
+          />
         </div>
       </div>
     </div>

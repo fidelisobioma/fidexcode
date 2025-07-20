@@ -13,7 +13,7 @@ function Navbar() {
     <div className="">
       {/*medium screen above*/}
       <div className="shadow bg-white">
-        <div className="hidden md:flex justify-around items-center  p-10  max-w-7xl m-auto">
+        <div className="hidden md:flex justify-between items-center  p-10  max-w-7xl m-auto">
           <div className="logo flex items-center justify-center">
             <div className="w-8 h-8  rounded-full  border-2 bg-[#6574a0] p-1">
               <img

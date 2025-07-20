@@ -6,7 +6,7 @@ function Portfolio() {
         Some of my awesome project
       </p>
       <div className="grid grid-cols-3 gap-10">
-        <div className="shadow  rounded-md">
+        <div className="shadow rounded-md">
           <div>
             <img
               src="/images/countries_app.jpg"
@@ -14,7 +14,7 @@ function Portfolio() {
               className="w-full h-[200px] object-cover"
             />
           </div>
-          <div className="p-2">
+          <div className="p-2 ">
             <p className="text-lg font-bold">Countries App</p>
             <p className="text-base font-normal leading-relaxed">
               Countries App is a website that display countries around the world
@@ -50,7 +50,7 @@ function Portfolio() {
               className="w-full  h-[200px] object-cover"
             />
           </div>
-          <div className="p-2">
+          <div className="p-2 ">
             <p className="text-lg font-bold">Space tourism</p>
             <p className="text-base font-normal leading-relaxed">
               Space tourism is a multi-page website with interactive elements
