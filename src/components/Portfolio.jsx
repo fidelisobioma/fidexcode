@@ -1,11 +1,13 @@
 function Portfolio() {
   return (
-    <div className="bg-white p-10  max-w-7xl m-auto">
-      <h2 className="text-2xl font-bold mb-4 text-center">My portfolio</h2>
-      <p className="text-lg font-normal mb-4 text-center">
+    <div className="bg-white p-10  max-w-7xl m-auto" id="portfolio">
+      <h2 className="text-2xl font-bold mb-4 text-center text-gray-900">
+        My portfolio
+      </h2>
+      <p className="text-lg font-normal mb-4 text-center text-gray-800">
         Some of my awesome project
       </p>
-      <div className="grid grid-cols-3 gap-10">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 text-gray-800">
         <div className="shadow rounded-md">
           <div>
             <img
@@ -14,13 +16,13 @@ function Portfolio() {
               className="w-full h-[200px] object-cover"
             />
           </div>
-          <div className="p-2 ">
-            <p className="text-lg font-bold">Countries App</p>
+          <div className=" p-4 grid text-center md:text-left">
+            <p className="text-lg font-bold text-gray-900">Countries App</p>
             <p className="text-base font-normal leading-relaxed">
               Countries App is a website that display countries around the world
               with their informations and details.
             </p>
-            <div className="flex gap-4 items-center my-2">
+            <div className="flex gap-4 justify-center md:justify-start items-center my-4">
               <div>
                 <img src="/images/react.png" alt="react" className="size-8" />
               </div>
@@ -32,12 +34,12 @@ function Portfolio() {
                 />
               </div>
             </div>
-            <div className="flex gap-2 ">
-              <button className="bg-[#6574a0] text-white text-sm md:text-base font-semibold px-2  rounded-md hover:bg-[#90b0ff] transition">
-                preview
+            <div className="flex justify-center md:justify-start gap-4 ">
+              <button className="bg-[#6574a0] text-white text-sm md:text-base font-semibold p-2  rounded-md hover:bg-[#90b0ff] transition">
+                Live preview
               </button>
-              <button className="bg-white border text-[#6574a0] text-sm md:text-base font-semibold px-4 py-2 rounded-lg hover:bg-[#90b0ff] hover:text-white transition">
-                code
+              <button className="bg-white border text-[#6574a0] text-sm md:text-base font-semibold p-2 py-2 rounded-lg hover:bg-[#90b0ff] hover:text-white transition">
+                Source code
               </button>
             </div>
           </div>
@@ -50,13 +52,13 @@ function Portfolio() {
               className="w-full  h-[200px] object-cover"
             />
           </div>
-          <div className="p-2 ">
+          <div className="p-4 grid text-center md:text-left ">
             <p className="text-lg font-bold">Space tourism</p>
             <p className="text-base font-normal leading-relaxed">
               Space tourism is a multi-page website with interactive elements
               and accessibility features
             </p>
-            <div className="flex gap-4 items-center my-2">
+            <div className="flex justify-center md:justify-start gap-4 items-center my-4">
               <div>
                 <img src="/images/react.png" alt="react" className="size-8" />
               </div>
@@ -68,12 +70,12 @@ function Portfolio() {
                 />
               </div>
             </div>
-            <div className="flex gap-2 ">
-              <button className="bg-[#6574a0] text-white text-sm md:text-base font-semibold px-4 py-2 rounded-md hover:bg-[#90b0ff] transition">
-                preview
+            <div className="flex justify-center md:justify-start gap-4 ">
+              <button className="bg-[#6574a0] text-white text-sm md:text-base font-semibold p-2  rounded-md hover:bg-[#90b0ff] transition">
+                Live preview
               </button>
-              <button className="bg-white border text-[#6574a0] text-sm md:text-base font-semibold px-4 py-2 rounded-lg hover:bg-[#90b0ff] hover:text-white transition">
-                code
+              <button className="bg-white border text-[#6574a0] text-sm md:text-base font-semibold p-2 py-2 rounded-lg hover:bg-[#90b0ff] hover:text-white transition">
+                Source code
               </button>
             </div>
           </div>
@@ -86,13 +88,13 @@ function Portfolio() {
               className="w-full  h-[200px] object-cover"
             />
           </div>
-          <div className="p-2">
+          <div className="p-4 grid text-center md:text-left">
             <p className="text-lg font-bold">Rock-paper-scissors game</p>
             <p className="text-base font-normal leading-relaxed">
               A responsive Rock-paper-scissors-lizard-spock game with a rule
               modal
             </p>
-            <div className="flex gap-4 items-center my-2">
+            <div className="flex gap-4 justify-center md:justify-start items-center my-4">
               <div>
                 <img src="/images/JS.png" alt="JavaScript" className="size-8" />
               </div>
@@ -100,12 +102,12 @@ function Portfolio() {
                 <img src="/images/css.png" alt="CSS" className="size-8" />
               </div>
             </div>
-            <div className="flex gap-2 ">
-              <button className="bg-[#6574a0] text-white text-sm md:text-base font-semibold px-4 py-2 rounded-md hover:bg-[#90b0ff] transition">
-                preview
+            <div className="flex gap-4 justify-center md:justify-start">
+              <button className="bg-[#6574a0] text-white text-sm md:text-base font-semibold p-2  rounded-md hover:bg-[#90b0ff] transition">
+                Live preview
               </button>
-              <button className="bg-white border text-[#6574a0] text-sm md:text-base font-semibold px-4 py-2 rounded-lg hover:bg-[#90b0ff] hover:text-white transition">
-                code
+              <button className="bg-white border text-[#6574a0] text-sm md:text-base font-semibold p-2 py-2 rounded-lg hover:bg-[#90b0ff] hover:text-white transition">
+                Source code
               </button>
             </div>
           </div>
