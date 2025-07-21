@@ -5,14 +5,14 @@ function Hero() {
         className="max-w-7xl p-10 md:h-96 grid justify-center items-center mx-auto text-gray-900 scroll-mt-[300px]"
         id="home"
       >
-        <div className="">
-          <h1 className="md:text-4xl font-bold leading-7 text-center">
+        <div className="leading-loose">
+          <h1 className="text-3xl md:text-4xl font-bold  text-center">
             Hey, I'm Frontend Developer
           </h1>
-          <h1 className="md:text-4xl font-bold leading-7  text-center">
+          <h1 className="text-3xl md:text-4xl font-bold   text-center">
             Building friendly user interface
           </h1>
-          <h1 className="md:text-4xl font-bold leading-7  text-center">
+          <h1 className="text-3xl md:text-4xl font-bold  text-center">
             PSD to HTML!
           </h1>
         </div>

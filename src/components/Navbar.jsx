@@ -66,12 +66,10 @@ function Navbar() {
       {/*small screen */}
       <div className="md:hidden flex  justify-between items-center p-10 max-w-7xl m-auto shadow bg-white fixed left-0 right-0 top-0">
         <div className="logo flex items-center justify-center">
-          <div className="w-8 h-8  rounded-full   bg-white p-1">
+          <div className="w-8 h-8  rounded-full   bg-[#6574a0] p-1">
             <img src="/images/fidelis.png" alt="fidexcode" className="w-full" />
           </div>
-          <div className="text-xl font-bold text-[hsl(207, 13%, 34%)] dark:text-white">
-            fidexcode
-          </div>
+          <div className="text-xl font-bold text-gray-900">fidexcode</div>
         </div>
 
         <div>
