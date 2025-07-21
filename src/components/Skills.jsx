@@ -42,7 +42,7 @@ function Skills() {
         </div>
       </div>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 mt-4 text-gray-800">
-        <div className="shadow rounded-md px-4 py-2 bg-white">
+        <div className="shadow rounded-md p-4  bg-white">
           <div className="flex gap-1 justify-center md:justify-start items-center  bg-slate  rounded px-px ">
             <GitCompare color="#6687eb" className="size-4 font-normal " />
             <p className="text-lg font-normal text-[#6687eb] ">
@@ -54,7 +54,7 @@ function Skills() {
             collabortion and version management in my development.
           </p>
         </div>
-        <div className="shadow rounded-md px-4 py-2 bg-white">
+        <div className="shadow rounded-md p-4 bg-white">
           <div className="flex gap-1 justify-center md:justify-start items-center  bg-slate- rounded px-px">
             <Code color="#6687eb" className="size-4 font-normal " />
             <p className="text-lg font-normal text-[#6687eb]">
@@ -66,7 +66,7 @@ function Skills() {
             visually appealing web application.
           </p>
         </div>
-        <div className="shadow rounded-md px-4 py-2 bg-white">
+        <div className="shadow rounded-md p-4 bg-white">
           <div className="flex gap-1 justify-center md:justify-start items-center  bg-slate rounded px-px">
             <MonitorSmartphone
               color="#6687eb"
@@ -79,7 +79,7 @@ function Skills() {
             sizes, devices, and orientations, ensuring a great user experience.
           </p>
         </div>
-        <div className="shadow rounded-md px-4 py-2 bg-white">
+        <div className="shadow rounded-md p-4 bg-white">
           <div className="flex gap-1 justify-center md:justify-start items-center  bg-slate rounded px-px">
             <Workflow color="#6687eb" className="size-4 font-normal " />
             <p className="text-lg font-normal text-[#6687eb]">
@@ -91,7 +91,7 @@ function Skills() {
             seamless communication between frontend and backend system.
           </p>
         </div>
-        <div className="shadow rounded-md px-4 py-2 bg-white">
+        <div className="shadow rounded-md p-4 bg-white">
           <div className="flex gap-1 justify-center md:justify-start items-center   rounded px-px">
             <Accessibility color="#6687eb" className="size-4 font-normal " />
             <p className="text-lg font-normal text-[#6687eb]">Accesibility</p>
@@ -102,7 +102,7 @@ function Skills() {
             like WCAG2.1
           </p>
         </div>
-        <div className="shadow rounded-md px-4 py-2 bg-white">
+        <div className="shadow rounded-md p-4 bg-white">
           <div className="flex gap-1 justify-center md:justify-start items-center rounded px-px">
             <UserSearch color="#6687eb" className="size-4 font-normal " />
             <p className="text-lg font-normal text-[#6687eb] ">

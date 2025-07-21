@@ -22,7 +22,7 @@ function Navbar() {
                 className="w-full"
               />
             </div>
-            <div className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white">
+            <div className="text-xl md:text-2xl font-bold text-gray-900 ">
               fidexcode
             </div>
           </div>
