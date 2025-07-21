@@ -3,7 +3,7 @@ function About() {
     <div className="bg-white" id="about">
       <div className="grid md:grid-cols-2  items-center gap-10  p-10 max-w-7xl mx-auto">
         <div className="max-w-[600px] order-2 text-center md:text-left">
-          <h2 className="text-lg md:text-2xl font-bold mb-4 text-gray-900">
+          <h2 className="text-xl md:text-2xl font-bold mb-4 text-gray-900">
             About me
           </h2>
           <p className="text-lg font-normal mb-4 text-gray-800">
