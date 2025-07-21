@@ -1,7 +1,7 @@
 function Portfolio() {
   return (
     <div className="bg-white p-10  max-w-7xl m-auto" id="portfolio">
-      <h2 className="text-2xl font-bold mb-4 text-center text-gray-900">
+      <h2 className="text-lg md:text-2xl font-bold mb-4 text-center text-gray-900">
         My portfolio
       </h2>
       <p className="text-lg font-normal mb-4 text-center text-gray-800">

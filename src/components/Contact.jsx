@@ -8,7 +8,7 @@ import { Linkedin } from "lucide-react";
 function Contact() {
   return (
     <div className="bg-white p-10  max-w-7xl m-auto" id="contact">
-      <h2 className="text-2xl font-bold mb-4 text-center text-gray-900">
+      <h2 className="text-lg md:text-2xl font-bold mb-4 text-center text-gray-900">
         Contact me
       </h2>
       <p className="text-lg font-normal mb-4 text-center text-gray-800">
@@ -20,7 +20,7 @@ function Contact() {
             <Mail color="#6574a0" />
           </div>
           <div>
-            <p className="text-lg font-normal  text-center">
+            <p className="text-base font-normal  text-center">
               mbamfidelisobioma1@gmail.com
             </p>
           </div>
@@ -28,7 +28,7 @@ function Contact() {
         <div className="flex justify-center items-center gap-2 mb-4">
           <Phone color="#6574a0" />
           <div>
-            <p className="text-lg font-normal  text-center">+2348132034923</p>
+            <p className="text-base font-normal  text-center">+2348132034923</p>
           </div>
         </div>
         <div className="flex justify-center items gap-2 mb-4">
@@ -36,7 +36,7 @@ function Contact() {
             <MapPin color="#6574a0" />
           </div>
           <div>
-            <p className="text-lg font-normal text-center">
+            <p className="text-base font-normal text-center">
               Abakaliki, Nigeria
             </p>
           </div>

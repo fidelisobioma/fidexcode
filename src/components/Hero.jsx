@@ -6,13 +6,13 @@ function Hero() {
         id="home"
       >
         <div className="leading-loose">
-          <h1 className="text-3xl md:text-4xl font-bold  text-center">
+          <h1 className="text-lg md:text-4xl font-bold  text-center">
             Hey, I'm Frontend Developer
           </h1>
-          <h1 className="text-3xl md:text-4xl font-bold   text-center">
+          <h1 className="text-lg md:text-4xl font-bold   text-center">
             Building friendly user interface
           </h1>
-          <h1 className="text-3xl md:text-4xl font-bold  text-center">
+          <h1 className="text-lg md:text-4xl font-bold  text-center">
             PSD to HTML!
           </h1>
         </div>
